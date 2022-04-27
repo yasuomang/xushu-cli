@@ -28,7 +28,6 @@ Reflect.ownKeys(mapAction).forEach((action) => {
       if (action === '*') { // 命令不存在
         console.log(mapAction[action].description);
       } else {
-        // require(path.resolve(__dirname, action))(...process.argv.slice(3)); // 引入命令对应操作模块
         create(...process.argv.slice(3))
       }
     });
