@@ -6,5 +6,5 @@
 
 ```shell
 npm i @m-xushu/cli -g
-@m-xushu/cli create project_name
+xushu-cli create project_name
 ```
